@@ -20,6 +20,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 1;
+    pointer-events: none;
 }
 .stars_6{
     position: absolute;
@@ -27,6 +28,7 @@ main{
     top: calc(50% + 20px);
     left: calc(50% + 10px);
     z-index: 2;
+    pointer-events: none;
 }
 .moon_5{
     position: absolute;
@@ -34,6 +36,7 @@ main{
     top: 50%;
     left: calc(50% + 30px);
     z-index: 3;
+    pointer-events: none;
 }
 .clouds_4{
     position: absolute;
@@ -41,6 +44,7 @@ main{
     top: 50%;
     left: calc(50% + 30px);
     z-index: 4;
+    pointer-events: none;
 }
 .forest_3{
     position: absolute;
@@ -49,6 +53,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 5;
+    pointer-events: none;
 }
 .fog_3{
     position: absolute;
@@ -56,6 +61,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 6;
+    pointer-events: none;
 }
 .forest_2{
     position: absolute;
@@ -64,6 +70,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 7;
+    pointer-events: none;
 }
 .fog_2{
     position: absolute;
@@ -71,6 +78,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 8;
+    pointer-events: none;
 }
 .forest_1{
     position: absolute;
@@ -79,6 +87,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 9;
+    pointer-events: none;
 }
 .firefliers_1{
     position: absolute;
@@ -86,6 +95,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 10;
+    pointer-events: none;
 }
 .fog_1{
     position: absolute;
@@ -94,6 +104,7 @@ main{
     top: 50%;
     left: 50%;
     z-index: 11;
+    pointer-events: none;
 }
 
 .vignette{
