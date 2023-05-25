@@ -19,7 +19,7 @@ main{
 }
 .parallax{
     pointer-events: none;
-    /*transition: 0.4s cubic-bezier(0.2,0.49,0.32,0.99);*/
+    /*transition: 0.2s cubic-bezier(0.41,0.23,0.43,0.7);*/
     transform: translate(-50%, -50%);
 }
 .bg-img{
