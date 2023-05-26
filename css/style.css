@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 body{
 }
 
@@ -19,7 +18,7 @@ main{
 }
 .parallax{
     pointer-events: none;
-    /*transition: 0.2s cubic-bezier(0.41,0.23,0.43,0.7);*/
+    /*transition: 0.2s cubic-bezier(0.41,0.23,0.43,0.6);*/
     transform: translate(-50%, -50%);
 }
 .bg-img{
