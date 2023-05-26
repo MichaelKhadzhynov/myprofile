@@ -24,8 +24,7 @@ main{
 }
 .bg-img{
     position: absolute;
-    width: 1680px;
-    height: 1080px;
+    width: 150%;
     top: 50%;
     left: 50%;
     z-index: 1;
@@ -33,32 +32,31 @@ main{
 }
 .stars_6{
     position: absolute;
-    width: 1280px;
-    top: calc(50% + 20px);
-    left: calc(50% + 10px);
+    width: 100%;
+    top: 55%;
+    left: 52%;
     z-index: 2;
     pointer-events: none;
 }
 .moon_5{
     position: absolute;
-    width: 1280px;
+    width: 100%;
     top: 50%;
-    left: calc(50% + 30px);
+    left: 50%;
     z-index: 3;
     pointer-events: none;
 }
 .clouds_4{
     position: absolute;
-    width: 1280px;
-    top: 50%;
-    left: calc(50% + 30px);
+    width: 100%;
+    top: 55%;
+    left: 50%;
     z-index: 4;
     pointer-events: none;
 }
 .forest_3{
     position: absolute;
-    width: 1580px;
-    height: 1050px;
+    width: 125%;
     top: 50%;
     left: 50%;
     z-index: 5;
@@ -66,7 +64,7 @@ main{
 }
 .fog_3{
     position: absolute;
-    width: 1580px;
+    width: 120%;
     top: 50%;
     left: 50%;
     z-index: 6;
@@ -74,8 +72,7 @@ main{
 }
 .forest_2{
     position: absolute;
-    width: 1480px;
-    height: 800px;
+    width: 110%;
     top: 50%;
     left: 50%;
     z-index: 7;
@@ -83,7 +80,7 @@ main{
 }
 .fog_2{
     position: absolute;
-    width: 1480px;
+    width: 120%;
     top: 50%;
     left: 50%;
     z-index: 8;
@@ -91,16 +88,15 @@ main{
 }
 .forest_1{
     position: absolute;
-    width: 1500px;
-    height: 880px;
-    top: 50%;
+    width: 120%;
+    top: 45%;
     left: 50%;
     z-index: 9;
     pointer-events: none;
 }
 .firefliers_1{
     position: absolute;
-    width: 1280px;
+    width: 100%;
     top: 50%;
     left: 50%;
     z-index: 10;
@@ -108,9 +104,8 @@ main{
 }
 .fog_1{
     position: absolute;
-    width: 1480px;
-    height: 780px;
-    top: 50%;
+    width: 115%;
+    top: 45%;
     left: 50%;
     z-index: 11;
     pointer-events: none;
@@ -124,4 +119,71 @@ main{
     top: 0;
     left: 0;
     background: radial-gradient(ellipse at center, rgba(0,0,0,0) 85%, rgba(0,0,0,0.4));
+}
+
+@media(max-width: 725px){
+    .bg-img{
+        position: center;
+        height: 200%;
+    }
+    .stars_6{
+        position: center;
+        height: 45%;
+        top: 30%;
+    }
+    .moon_5{
+        position: center;
+        width: 300%;
+        top: 60%;
+        left: 56%;
+    }
+    .clouds_4{
+        position: center;
+        width: 150%;
+        top: 55%;
+        left: 52%;
+    }
+    .forest_3{
+        position: absolute;
+        width: 320%;
+        top: 50%;
+        left: 30%;
+    }
+    .fog_3{
+        position: absolute;
+        width: 320%;
+        top: 50%;
+        left: 30%;
+    }
+    .forest_2{
+        position: center;
+        width: 320%;
+        top: 50%;
+        left: 30%;
+
+    }
+    .fog_2{
+        position: absolute;
+        width: 320%;
+        top: 50%;
+        left: 30%;
+    }
+    .forest_1{
+        position: center;
+        width: 320%;
+        top: 50%;
+        left: 30%;
+    }
+    .firefliers_1{
+        position: absolute;
+        width: 320%;
+        top: 50%;
+        left: 30%;
+    }
+    .fog_1{
+        position: absolute;
+        width: 320%;
+        top: 50%;
+        left: 30%;
+    }
 }

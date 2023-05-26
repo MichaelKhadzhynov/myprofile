@@ -34,9 +34,9 @@ window.addEventListener("mousemove", (e) =>{
 })
 
 if(window.innerWidth >= 725){
-    main.style.maxHeight = `${window.innerWidth * 0.8}px`
+    main.style.maxHeight = `${window.innerWidth * 0.7}px`
 }else {
-    main.style.maxHeight = `${window.innerWidth * 1.8}px`
+    main.style.maxHeight = `${window.innerWidth * 2.2}px`
 }
 
 /* GSAP animation*/
