@@ -54,3 +54,24 @@ parallax_el.forEach(el => {
     );
 });
 
+const wrapper = document.querySelector(".wrapper");
+const loginLink = document.querySelector(".login-link");
+const registerLink = document.querySelector(".register-link");
+registerLink.addEventListener("click", ()=>{
+    wrapper.classList.add("active");
+});
+loginLink.addEventListener("click", ()=>{
+    wrapper.classList.remove("active");
+});
+
+const loginBtn = document.querySelector(".btnLogin-popup");
+loginBtn.addEventListener("click", ()=>{
+    wrapper.classList.add("active-popup");
+});
+
+const wrapperClose = document.querySelector(".icon-close");
+wrapperClose.addEventListener("click", ()=>{
+    wrapper.classList.remove("active-popup");
+});
+
+
