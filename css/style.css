@@ -85,6 +85,7 @@
     background: transparent;
     border: 1px solid rgba(255,255,255, 0.08);
     border-radius: 20px;
+    backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
     box-shadow: 0 0 30px rgba(0,0,0, .5);
     display: flex;
