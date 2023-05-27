@@ -33,14 +33,14 @@ window.addEventListener("mousemove", (e) =>{
     update(e);
 })
 
+// Window manage
 if(window.innerWidth >= 725){
     main.style.maxHeight = `${window.innerWidth * 0.7}px`
 }else {
     main.style.maxHeight = `${window.innerWidth * 2.2}px`
 }
 
-/* GSAP animation*/
-
+// GSAP animation
 let timeline = gsap.timeline();
 parallax_el.forEach(el => {
     timeline.from(
@@ -54,6 +54,7 @@ parallax_el.forEach(el => {
     );
 });
 
+//Wrapper
 const wrapper = document.querySelector(".wrapper");
 const loginLink = document.querySelector(".login-link");
 const registerLink = document.querySelector(".register-link");
@@ -73,5 +74,12 @@ const wrapperClose = document.querySelector(".icon-close");
 wrapperClose.addEventListener("click", ()=>{
     wrapper.classList.remove("active-popup");
 });
+
+const homeButton = document.querySelector(".home-btn");
+homeButton.addEventListener("click", ()=>{
+    window.scrollTo(0,0);
+});
+
+
 
 
