@@ -378,7 +378,7 @@ main{
     z-index: 21;
     width: 100%;
     height: 40vh;
-    background-image: url(/img/ground.png);
+    background-image: url(myprofile/img/ground.png);
     bottom: -30vh;
     background-size: cover;
     background-position: center;
