@@ -95,7 +95,7 @@
     position: fixed;
     z-index: 100;
     top: 14%;
-    left: 33%;
+    left: 35vw;
     width: 30%;
     height: 55%;
     background: transparent;
@@ -259,7 +259,7 @@
     margin: 25px 0 10px;
 }
 .login-register p a{
-    color: #5a92c5;
+    color: #8bbeee;
     text-decoration: none;
     font-weight: 500;
 }
