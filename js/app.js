@@ -1,9 +1,11 @@
+
 const parallax_el = document.querySelectorAll(".parallax");
 const main = document.querySelector("main");
 
 let xValue = 0, yValue = 0;
 let rotateDegree = 0;
 
+// Parallax
 function update(cursorPosition) {
     parallax_el.forEach(el => {
         let speedx = el.dataset.speedx;
@@ -40,6 +42,7 @@ if(window.innerWidth >= 725){
     main.style.maxHeight = `${window.innerWidth * 2.2}px`
 }
 
+
 // GSAP animation
 let timeline = gsap.timeline();
 parallax_el.forEach(el => {
@@ -53,6 +56,8 @@ parallax_el.forEach(el => {
         "1"
     );
 });
+
+
 
 //Wrapper
 const wrapper = document.querySelector(".wrapper");
@@ -75,10 +80,19 @@ wrapperClose.addEventListener("click", ()=>{
     wrapper.classList.remove("active-popup");
 });
 
+
+
+// Home button
 const homeButton = document.querySelector(".home-btn");
 homeButton.addEventListener("click", ()=>{
-    window.scrollTo(0,0);
+    window.scrollTo({top:0 , left: 0, behavior: "smooth"});
 });
+
+//Scroll coordinates
+window.addEventListener("scroll", ()=>{
+    document.body.style.cssText +=`--scrollTop: ${this.scrollY}px`;
+})
+
 
 
 

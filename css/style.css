@@ -24,7 +24,7 @@
     user-select: none;
 }
 .navbar a,
-.navbar .home-btn {
+.navbar button {
     position: relative;
     font-size: 1.1em;
     font-family: "Helvetica Neue", serif;
@@ -37,8 +37,11 @@
     font-weight: 400;
     margin-left: 40px;
 }
-.navbar .home-btn::after,
-.navbar a::after {
+
+.navbar a::after,
+.about-btn::after,
+.contact-btn::after,
+.home-btn::after{
     content: '';
     position: absolute;
     left: 0;
@@ -51,8 +54,8 @@
     transform: scaleX(0);
     transition: transform .5s;
 }
-.navbar .home-btn:hover::after,
-.navbar a:hover::after{
+.navbar a:hover::after,
+.navbar button:hover::after{
     transform-origin: left;
     transform: scaleX(1);
 }
@@ -70,6 +73,7 @@
     font-weight: 600;
     margin-left: 40px;
     transition: .5s;
+
 }
 .navbar .btnLogin-popup:hover{
     background: #fff;
@@ -500,4 +504,3 @@ main{
 
     }
 }
-
