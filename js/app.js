@@ -90,7 +90,8 @@ homeButton.addEventListener("click", ()=>{
 
 //Scroll coordinates
 window.addEventListener("scroll", ()=>{
-    document.body.style.cssText +=`--scrollTop: ${this.scrollY}px`;
+    // document.body.style.cssText +=`--scrollTop: ${this.scrollY}px`;
+    document.documentElement.style.setProperty('--scrollTop', `${this.scrollY}px`)
 })
 
 

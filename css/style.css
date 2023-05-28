@@ -22,6 +22,8 @@
     font-size: 2em;
     color: #fff;
     user-select: none;
+    pointer-events: none;
+    /*text-shadow: 0 0 5px white;*/
 }
 .navbar a,
 .navbar button {
@@ -108,6 +110,7 @@
     overflow: hidden;
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
+
 }
 
 .wrapper.active-popup{
@@ -136,7 +139,6 @@
     border-bottom-left-radius: 20px;
     cursor: pointer;
     z-index: 1;
-
 }
 
 .wrapper .form-box.login{
@@ -398,6 +400,25 @@ main{
     z-index: 10;
 }
 
+.hard-skills-block .hard-skills-text{
+    position: relative;
+    top: 63vh;
+    left: 40vw;
+    width: 100vw;
+    justify-content: center;
+    font-family: "Helvetica Neue", serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 530;
+    background: none;
+    border: none;
+    transform: translate3d(0, calc(var(--scrollTop)/-2), 0);
+    text-shadow: 0 0 20px #f9df02;
+    pointer-events: none;
+    z-index: 21;
+}
+
 
 
 @media(max-width: 725px){
@@ -487,10 +508,17 @@ main{
         bottom: -29vh;
 
     }
+    .hard-skills-block .hard-skills-text{
+        position: center;
+        width: 100vw;
+        left: 20%;
+
+    }
+
 
 
 }
-@media(min-width: 1080px){
+@media(min-width: 1600px){
     .wrapper.active .form-box.login{
         transition: transform .3s ease;
         transform: translateX(-800px);
@@ -501,6 +529,13 @@ main{
         position: absolute;
         transition: transform .3s ease;
         transform: translateX(800px);
+
+    }
+
+    .hard-skills-block .hard-skills-text{
+        position: center;
+        width: 100vw;
+        left: 44vw;
 
     }
 }
