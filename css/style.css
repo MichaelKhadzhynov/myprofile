@@ -267,7 +267,6 @@
     text-decoration: underline;
 }
 
-
 main{
     position: relative;
     height: 100vh;
@@ -428,7 +427,7 @@ main{
     align-items: center;
     left: 1vw;
     top: 70vw;
-    border: 3px solid rgba(255,255,255, 0.08);
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
     border-radius: 20px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -454,7 +453,7 @@ main{
     width: 4vw;
     left: 15vw;
     top: -8vh;
-    margin-left: 2.5%;
+    margin-left: 1.9%;
 }
 
 .automation-tech .java{
@@ -470,6 +469,17 @@ main{
     top:-8vh;
     margin-right: 1vw;
     -webkit-filter: drop-shadow(0 10px 10px #ffffff);
+}
+
+.automation-tech .jdbc{
+    top: -8vh;
+    -webkit-filter: drop-shadow(0 0 20px #00e1ff);
+    cursor: pointer;
+    transition: ease .3s;
+}
+.automation-tech .jdbc:hover {
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 10px #00e1ff);
 }
 
 .automation-tech .selenium{
@@ -707,14 +717,14 @@ main{
         border: white;
         width: 90vw;
         left: 4vw;
-        height: 25vh;
+        height: 30vh;
         text-align: left;
         top: 50vh;
         transform: translate3d(0, calc(var(--scrollTop)/-3), 0);
     }
     .automation-tech .icon{
         width: 10vw;
-        top: 3vh;
+        top: 1vh;
         left: 0vh;
         margin-left: 3vw;
         margin-top: 3vh;
