@@ -435,8 +435,6 @@ main{
     transform: translate3d(0, calc(var(--scrollTop)/-1), 0);
     padding: 10px;
 
-
-
 }
 
 .automation-tech p{
@@ -458,6 +456,7 @@ main{
     top: -8vh;
     margin-left: 2.5%;
 }
+
 .automation-tech .java{
     width: 6vw;
     top: -6vh;
@@ -494,13 +493,13 @@ main{
     width: 5vw;
     -webkit-filter: drop-shadow(0 10px 5px #36f60c);
 }
+
 .automation-tech .gatling{
     -webkit-filter: drop-shadow(0 0 10px #bc0cf6);
     transition: .3s;
     width: 4vw;
     top:-7vh;
 }
-
 .automation-tech .gatling:hover{
     width: 5vw;
     -webkit-filter: drop-shadow(0 10px 5px #bc0cf6);
@@ -567,7 +566,8 @@ main{
 
 .automation-tech .jenkins{
     -webkit-filter: drop-shadow(0 0 10px #8faba2);
-    transition: .3s;
+    transition: ease .3s;
+
     top: -7vh;
     width: 5vw;
 }
@@ -664,8 +664,23 @@ main{
     .text-logo{
         position: relative;
         height: 20vh;
-        left: -40%;
+        left: -16vw;
     }
+    .navbar a,
+    .navbar button {
+        position: relative;
+        font-size: 1em;
+        font-family: "Helvetica Neue", serif;
+        width: 19vw;
+        margin-top: 2vw;
+        left: 19vw;
+        top: -3vh;
+    }
+    .navbar .btnLogin-popup{
+        left: -20vw;
+        top: -13vh;
+    }
+
 
     .hard-skills-block {
         position: center;
@@ -687,8 +702,28 @@ main{
         text-align: center;
 
     }
+    .automation-tech {
+        position: relative;
+        border: white;
+        width: 90vw;
+        left: 4vw;
+        height: 25vh;
+        text-align: left;
+        top: 50vh;
+        transform: translate3d(0, calc(var(--scrollTop)/-3), 0);
+    }
+    .automation-tech .icon{
+        width: 10vw;
+        top: 3vh;
+        left: 0vh;
+        margin-left: 3vw;
+        margin-top: 3vh;
+    }
+    .automation-tech .icon:hover{
+        width: 11vw;
+        top: 0vh;
 
-
+    }
 
 }
 @media(min-width: 1600px){
