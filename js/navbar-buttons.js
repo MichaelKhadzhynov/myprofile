@@ -16,5 +16,7 @@ wrapperClose.addEventListener("click", ()=>{
 });
 
 // Skills button
-
-// const
+const skills = document.querySelector(".skills-btn");
+skills.addEventListener("click", ()=>{
+    document.querySelector(".automation-tech").scrollIntoView({behavior: "smooth"})
+})

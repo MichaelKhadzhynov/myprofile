@@ -41,9 +41,9 @@
 }
 
 .navbar a::after,
-.about-btn::after,
+.home-btn::after,
 .contact-btn::after,
-.home-btn::after{
+.skills-btn::after{
     content: '';
     position: absolute;
     left: 0;

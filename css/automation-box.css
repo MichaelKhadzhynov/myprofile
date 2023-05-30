@@ -80,7 +80,7 @@
     box-shadow: 0 0 30px rgba(0,0,1, .5);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    overflow-y: scroll;
+    overflow: auto;
     z-index: 21;
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
