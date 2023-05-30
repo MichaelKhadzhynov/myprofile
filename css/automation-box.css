@@ -1,0 +1,482 @@
+.automation-tech {
+    position: relative;
+    border: white;
+    width: 98%;
+    height: 14vh;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    left: 1vw;
+    top: 70vw;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transform: translate3d(0, calc(var(--scrollTop)/-1), 0);
+    padding: 15px;
+}
+
+.automation-tech p{
+    position: relative;
+    top: 2vh;
+    font-family: "Helvetica Neue", serif;
+    font-size: 4vh;
+    font-weight: 530;
+    color: #fff;
+    text-shadow: 0 0 20px #f9df02;
+    pointer-events: none;
+    margin: 0;
+
+}
+.automation-tech img{
+    position: relative;
+    width: 4vw;
+    left: 15vw;
+    top: -7vh;
+    margin-left: 1.9%;
+}
+
+.close-icn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    border: none;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 22;
+}
+
+.automation-tech .java{
+    width: 6vw;
+    top: -6vh;
+    left: 16vw;
+    -webkit-filter: drop-shadow(0 0 5px #f53801);
+    cursor: pointer;
+    transition: ease .3s;
+}
+.automation-tech .java:hover{
+    top:-8vh;
+    margin-right: 1vw;
+    -webkit-filter: drop-shadow(0 10px 10px #ffffff);
+}
+.java-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-java-box{
+    transform: scale(1);
+}
+
+.automation-tech .jdbc{
+    top: -8vh;
+    -webkit-filter: drop-shadow(0 0 20px #00e1ff);
+    cursor: pointer;
+    transition: ease .3s;
+}
+.automation-tech .jdbc:hover {
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 10px #00e1ff);
+}
+.jdbc-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-jdbc-box {
+    transform: scale(1);
+}
+
+.automation-tech .selenium{
+    top: -8vh;
+    -webkit-filter: drop-shadow(0 0 20px #00ffb0);
+    cursor: pointer;
+    transition: ease .3s;
+
+}
+.automation-tech .selenium:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 10px #00ffb0);
+}
+.selenium-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-selenium-box{
+    transform: scale(1);
+}
+
+.automation-tech .cucumber{
+    top: -7vh;
+    -webkit-filter: drop-shadow(0 0 5px #36f60c);
+    transition: .3s;
+}
+.automation-tech .cucumber:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #36f60c);
+}
+.cucumber-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-cucumber-box{
+    transform: scale(1);
+}
+
+.automation-tech .gatling{
+    -webkit-filter: drop-shadow(0 0 10px #bc0cf6);
+    transition: .3s;
+    width: 4vw;
+    top:-7vh;
+}
+.automation-tech .gatling:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #bc0cf6);
+}
+.gatling-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-gatling-box{
+    transform: scale(1);
+}
+
+.automation-tech .mybatis {
+    width: 4.5vw;
+    top:-7vh;
+    -webkit-filter: drop-shadow(0 0 10px #ec3443);
+    transition: .3s;
+}
+.automation-tech .mybatis:hover {
+    width: 5.5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #ec3443);
+}
+.mybatis-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-mybatis-box{
+    transform: scale(1);
+}
+
+.automation-tech .appium{
+    width: 4vw;
+    top:-7.5vh;
+    -webkit-filter: drop-shadow(0 0 10px #6234ec);
+    transition: ease .3s;
+    cursor: pointer;
+}
+.automation-tech .appium:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #6234ec);
+}
+.appium-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-appium-box{
+    transform: scale(1);
+}
+
+.automation-tech .chrome{
+    width: 4vw;
+    top:-7.5vh;
+    -webkit-filter: drop-shadow(0 0 15px #0248f8);
+    transition: ease .3s;
+    cursor: pointer;
+}
+.automation-tech .chrome:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #0248f8);
+}
+.chrome-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-chrome-box{
+    transform: scale(1);
+}
+
+.automation-tech .restassured{
+    width: 4vw;
+    top:-7.5vh;
+    -webkit-filter: drop-shadow(0 0 15px #00be68);
+    transition: ease .3s;
+    cursor: pointer;
+}
+.automation-tech .restassured:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #00be68);
+}
+.restassured-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-restassured-box{
+    transform: scale(1);
+}
+
+.automation-tech .docker{
+    width: 6vw;
+    top:-7vh;
+    -webkit-filter: drop-shadow(0 0 10px #34ecec);
+    transition: ease .3s;
+    cursor: pointer;
+}
+.automation-tech .docker:hover {
+    width: 7vw;
+    -webkit-filter: drop-shadow(0 10px 5px #34ecec);
+}
+.docker-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-docker-box{
+    transform: scale(1);
+}
+
+.automation-tech .jenkins{
+    -webkit-filter: drop-shadow(0 0 10px #8faba2);
+    transition: ease .3s;
+
+    top: -7vh;
+    width: 5vw;
+}
+.automation-tech .jenkins:hover{
+    width: 6vw;
+    -webkit-filter: drop-shadow(0 10px 11px #ecfcf7);
+}
+.jenkins-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-jenkins-box{
+    transform: scale(1);
+}
+
+.automation-tech .bash{
+    top: -7vh;
+    -webkit-filter: drop-shadow(0 0 10px #ecfcf7);
+    transition: ease .3s;
+}
+.automation-tech .bash:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 10px #ecfcf7);
+}
+.bash-box {
+    position:absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top:  120vh;;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-bash-box{
+    transform: scale(1);
+}
+
+@media(max-width: 725px) {
+    .automation-tech {
+        position: relative;
+        border: white;
+        width: 90vw;
+        left: 4vw;
+        height: 30vh;
+        text-align: left;
+        top: 50vh;
+        transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
+    }
+
+    .automation-tech .icon {
+        width: 10vw;
+        top: 1vh;
+        left: 0vh;
+        margin-left: 3vw;
+        margin-top: 3vh;
+    }
+
+    .automation-tech .icon:hover {
+        width: 11vw;
+        top: 0vh;
+
+    }
+}
+
+@media(min-width: 1600px){
+
+
+    .hard-skills-block .hard-skills-text{
+        position: relative;
+        width: 100vw;
+    }
+}
