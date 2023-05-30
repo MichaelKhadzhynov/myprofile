@@ -68,11 +68,11 @@
     -webkit-filter: drop-shadow(0 10px 10px #ffffff);
 }
 .java-box {
-    position:absolute;
+    position: absolute;
     width: 90vw;
     height: 75vh;
     left: 5vw;
-    top:  120vh;;
+    top: 120vh;
     color: white;
     justify-content: center;
     text-align: center;
@@ -80,7 +80,7 @@
     box-shadow: 0 0 30px rgba(0,0,1, .5);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    overflow: auto;
+    overflow-y: scroll;
     z-index: 21;
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
