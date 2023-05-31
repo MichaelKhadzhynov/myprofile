@@ -102,7 +102,7 @@
         left: 5vw;
         height: 24vh;
         text-align: left;
-        top: 48.3vh;
+        top: 49vh;
         transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
         overflow: scroll;
     }

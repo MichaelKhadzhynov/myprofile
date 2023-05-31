@@ -427,7 +427,7 @@
         left: 5vw;
         height: 25vh;
         text-align: left;
-        top: 47vh;
+        top: 48vh;
         transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
         overflow: hidden;
     }
