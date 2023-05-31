@@ -7,12 +7,12 @@
     justify-content: center;
     align-items: center;
     left: 1vw;
-    top: 45vw;
+    top: 73vw;
     box-shadow: 0 0 30px rgba(0,0,0, .5);
     border-radius: 20px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    transform: translate3d(0, calc(var(--scrollTop)/-2), 0);
+    transform: translate3d(0, calc(var(--scrollTop)/-1), 0);
     padding: 15px;
 }
 

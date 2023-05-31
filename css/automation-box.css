@@ -53,18 +53,22 @@
     cursor: pointer;
     z-index: 22;
 }
+.automation-tech .empty{
+    width: 6vw;
+}
 
 .automation-tech .java{
     width: 6vw;
-    top: -6vh;
+    top: -9vh;
     left: 16vw;
     -webkit-filter: drop-shadow(0 0 5px #f53801);
     cursor: pointer;
     transition: ease .3s;
 }
 .automation-tech .java:hover{
-    top:-8vh;
-    margin-right: 1vw;
+    /*top:-8vh;*/
+    /*margin-right: 1vw;*/
+    width: 7vw;
     -webkit-filter: drop-shadow(0 10px 10px #ffffff);
 }
 .java-box {
@@ -90,7 +94,7 @@
 }
 
 .automation-tech .jdbc{
-    top: -8vh;
+    top: -10vh;
     -webkit-filter: drop-shadow(0 0 20px #00e1ff);
     cursor: pointer;
     transition: ease .3s;
@@ -122,7 +126,7 @@
 }
 
 .automation-tech .selenium{
-    top: -8vh;
+    top: -10vh;
     -webkit-filter: drop-shadow(0 0 20px #00ffb0);
     cursor: pointer;
     transition: ease .3s;
@@ -155,7 +159,7 @@
 }
 
 .automation-tech .cucumber{
-    top: -7vh;
+    top: -10vh;
     -webkit-filter: drop-shadow(0 0 5px #36f60c);
     transition: .3s;
 }
@@ -189,7 +193,7 @@
     -webkit-filter: drop-shadow(0 0 10px #bc0cf6);
     transition: .3s;
     width: 4vw;
-    top:-7vh;
+    top:-10vh;
 }
 .automation-tech .gatling:hover{
     width: 5vw;
@@ -219,7 +223,7 @@
 
 .automation-tech .mybatis {
     width: 4.5vw;
-    top:-7vh;
+    top:-10vh;
     -webkit-filter: drop-shadow(0 0 10px #ec3443);
     transition: .3s;
 }
@@ -251,7 +255,7 @@
 
 .automation-tech .appium{
     width: 4vw;
-    top:-7.5vh;
+    top:-10vh;
     -webkit-filter: drop-shadow(0 0 10px #6234ec);
     transition: ease .3s;
     cursor: pointer;
@@ -284,7 +288,7 @@
 
 .automation-tech .chrome{
     width: 4vw;
-    top:-7.5vh;
+    top:-10vh;
     -webkit-filter: drop-shadow(0 0 15px #0248f8);
     transition: ease .3s;
     cursor: pointer;
@@ -317,7 +321,7 @@
 
 .automation-tech .restassured{
     width: 4vw;
-    top:-7.5vh;
+    top:-10vh;
     -webkit-filter: drop-shadow(0 0 15px #00be68);
     transition: ease .3s;
     cursor: pointer;
@@ -350,7 +354,7 @@
 
 .automation-tech .docker{
     width: 6vw;
-    top:-7vh;
+    top:-10vh;
     -webkit-filter: drop-shadow(0 0 10px #34ecec);
     transition: ease .3s;
     cursor: pointer;
@@ -385,7 +389,7 @@
     -webkit-filter: drop-shadow(0 0 10px #8faba2);
     transition: ease .3s;
 
-    top: -7vh;
+    top: -10vh;
     width: 5vw;
 }
 .automation-tech .jenkins:hover{
@@ -415,7 +419,7 @@
 }
 
 .automation-tech .bash{
-    top: -7vh;
+    top: -10vh;
     -webkit-filter: drop-shadow(0 0 10px #ecfcf7);
     transition: ease .3s;
 }
