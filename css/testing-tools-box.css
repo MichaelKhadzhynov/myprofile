@@ -16,10 +16,10 @@
     padding: 15px;
 }
 
-.testing-tools p{
+.testing-tools h2{
     position: relative;
     top: 2vh;
-    font-family: "Helvetica Neue", serif;
+    font-family: var(--font);
     font-size: 4vh;
     font-weight: 530;
     color: #fff;
@@ -32,7 +32,7 @@
     position: relative;
     width: 4vw;
     left: 16.9vw;
-    top: -6vh;
+    top: -8vh;
     margin-left: 2.1%;
     transition: .3s;
 }

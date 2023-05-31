@@ -10,7 +10,7 @@ loginBtn.addEventListener("click", ()=>{
 });
 
 // Wrapper button
-const wrapperClose = document.querySelector(".icon-close");
+const wrapperClose = document.querySelector(".about-me-close");
 wrapperClose.addEventListener("click", ()=>{
     wrapper.classList.remove("active-popup");
 });

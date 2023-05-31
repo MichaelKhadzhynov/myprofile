@@ -5,6 +5,58 @@ main{
     overflow: hidden;
 
 }
+
+.welcome-btn{
+    position: absolute;
+    width: 30vw;
+    height: 20vh;
+    top: 37vh;
+    left: 35vw;
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 13;
+    background: none;
+    border: none;
+}
+.welcome-btn:hover + .welcome-icon{
+    width: 31vw;
+    -webkit-filter: drop-shadow(0 0px 20px #ffffff);
+}
+.welcome-icon {
+    position: relative;
+    width: 30vw;
+    top: 37vh;
+    left: 35vw;
+    -webkit-filter: drop-shadow(0 0px 10px #ffffff);
+    z-index: 7;
+    animation: jump 5s  infinite;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .2s;
+}
+
+.welcome-icon-stop{
+    animation: none;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(0);;
+    }
+    50% {
+        transform: translateY(-3vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+
+
 .parallax{
     pointer-events: none;
     /*transition: 0.2s cubic-bezier(0.41,0.23,0.43,0.7);*/
@@ -30,7 +82,7 @@ main{
     position: absolute;
     width: 100%;
     top: 50%;
-    left: 50%;
+    left: 53%;
     z-index: 3;
     pointer-events: none;
 }
@@ -172,5 +224,15 @@ main{
         width: 320%;
         top: 50%;
         left: 30%;
+    }
+
+    .welcome-btn,
+    .welcome-icon{
+        width: 50vw;
+        left: 22vw;
+        top: 45vh;
+    }
+    .welcome-btn:hover + .welcome-icon{
+        width: 55vw;
     }
 }

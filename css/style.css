@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --font: "Apple Chancery", serif;
+
+}
+
 
 .header{
     position: fixed;
@@ -23,13 +28,12 @@
     color: #fff;
     user-select: none;
     pointer-events: none;
-    /*text-shadow: 0 0 5px white;*/
 }
 .navbar a,
 .navbar button {
     position: relative;
-    font-size: 1.1em;
-    font-family: "Helvetica Neue", serif;
+    font-size: 1.4em;
+    font-family: var(--font);
     text-decoration: none;
     color: #fff;
     background: none;
@@ -115,7 +119,7 @@
     width: 100vw;
     justify-content: center;
     text-align: center;
-    font-family: "Helvetica Neue", serif;
+    font-family: var(--font);
     text-decoration: none;
     color: #fff;
     font-size: 40px;
@@ -128,7 +132,44 @@
     z-index: 21;
 }
 
-
+.about-me-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    border: none;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.about-me {
+    position: absolute;
+    width: 90vw;
+    height: 60vh;
+    left: 5vw;
+    top: 20vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(25px);
+    overflow-y: scroll;
+    z-index: 24;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.about-me-active{
+    transform: scale(1);
+}
 
 
 @media(max-width: 725px){
@@ -142,7 +183,7 @@
     .navbar button {
         position: relative;
         font-size: 1em;
-        font-family: "Helvetica Neue", serif;
+        font-family: var(--font);
         width: 19vw;
         margin-top: 2vw;
         left: 19vw;

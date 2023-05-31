@@ -47,3 +47,4 @@ parallax_el.forEach(el => {
         "1"
     );
 });
+
