@@ -31,7 +31,7 @@
 .testing-tools img{
     position: relative;
     width: 4vw;
-    left: 16.9vw;
+    left: 18vw;
     top: -8vh;
     margin-left: 2.1%;
     transition: .3s;
@@ -41,10 +41,7 @@
     width: 5vw;
 }
 
-.testing-tools .sql{
-    width: 3vw;
-    -webkit-filter: drop-shadow(0 0 10px #346eec);
-}
+
 .testing-tools .sql:hover{
     width: 4vw;
     -webkit-filter: drop-shadow(0 10px 5px #346EECFF);
@@ -99,9 +96,9 @@
         border: white;
         width: 90vw;
         left: 4vw;
-        height: 30vh;
+        height: 27vh;
         text-align: left;
-        top: 52vh;
+        top: 45vh;
         transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
         overflow: scroll;
     }

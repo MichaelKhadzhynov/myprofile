@@ -1,0 +1,193 @@
+.programming-tech {
+    position: relative;
+    border: white;
+    width: 98%;
+    height: 14vh;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    left: 1vw;
+    top: 67vw;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transform: translate3d(0, calc(var(--scrollTop)/-1), 0);
+    padding: 15px;
+}
+.programming-tech h2{
+    position: relative;
+    top: 2vh;
+    font-family: var(--font);
+    font-size: 4vh;
+    font-weight: 530;
+    color: #fff;
+    text-shadow: 0 0 20px #f9df02;
+    pointer-events: none;
+    margin: 0;
+
+}
+.programming-tech img{
+    position: relative;
+    width: 4vw;
+    left: 16vw;
+    top: -12vh;
+    margin-left: 1.9%;
+    transition: .3s;
+}
+
+.programming-tech .icon:hover{
+    width: 6vw;
+}
+
+.programming-tech .empty{
+    width: 6vw;
+}
+
+.programming-tech .java{
+    width: 6vw;
+    top: -10vh;
+    left: 17vw;
+    -webkit-filter: drop-shadow(0 0 5px #f53801);
+    cursor: pointer;
+    transition: ease .3s;
+}
+.programming-tech .java:hover{
+    width: 7vw;
+    -webkit-filter: drop-shadow(0 10px 10px #ffffff);
+}
+.java-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-java-box{
+    transform: scale(1);
+}
+
+.programming-tech .jdbc{
+    /*top: -11vh;*/
+    -webkit-filter: drop-shadow(0 0 20px #00e1ff);
+    cursor: pointer;
+    transition: ease .3s;
+}
+.programming-tech .jdbc:hover {
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 10px #00e1ff);
+}
+.jdbc-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-jdbc-box {
+    transform: scale(1);
+}
+
+.programming-tech .sql{
+    width: 3vw;
+    -webkit-filter: drop-shadow(0 0 10px #346eec);
+}
+.programming-tech .sql:hover{
+    width: 4vw;
+    -webkit-filter: drop-shadow(0 10px 5px #346EECFF);
+}
+
+.programming-tech .web-js{
+    top: -11vh;
+    width: 5.6vw;
+    -webkit-filter: drop-shadow(0 0 20px #e3d812);
+}
+.programming-tech .web-js:hover{
+    width: 7vw;
+    -webkit-filter: drop-shadow(0 10px 5px #e3d812);
+}
+
+.programming-tech .web-css{
+    top: -11vh;
+    -webkit-filter: drop-shadow(0 0 20px #0123d0);
+}
+.programming-tech .web-css:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #0123d0);
+}
+
+.programming-tech .web-html{
+    top: -11vh;
+    -webkit-filter: drop-shadow(0 0 20px #d00101)
+}
+.programming-tech .web-html:hover{
+    width: 5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #d00101);
+
+}
+
+@media(max-width: 725px) {
+    .programming-tech {
+        position: relative;
+        border: white;
+        width: 90vw;
+        left: 4vw;
+        height: 20vh;
+        text-align: left;
+        top: 45vh;
+        transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
+        overflow: scroll;
+    }
+
+    .programming-tech .icon {
+        width: 10vw;
+        top: 1vh;
+        left: 0vh;
+        margin-left: 3vw;
+        margin-top: 3vh;
+    }
+    .programming-tech .icon:hover {
+        width: 11vw;
+        top: 0vh;
+    }
+    .programming-tech .web-css{
+        width: 7vw;
+    }
+    .programming-tech .web-css:hover{
+        width: 8vw;
+    }
+    .programming-tech .web-html{
+        width: 7vw;
+    }
+    .programming-tech .web-html:hover{
+        width: 8vw;
+    }
+    .programming-tech .sql{
+        width: 7vw;
+    }
+    .programming-tech .sql:hover{
+        width: 8vw;
+    }
+}

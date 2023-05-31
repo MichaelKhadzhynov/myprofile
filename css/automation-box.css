@@ -31,7 +31,7 @@
 .automation-tech img{
     position: relative;
     width: 4vw;
-    left: 15vw;
+    left: 18vw;
     top: -7vh;
     margin-left: 1.9%;
 }
@@ -58,39 +58,6 @@
     width: 6vw;
 }
 
-.automation-tech .java{
-    width: 6vw;
-    top: -10vh;
-    left: 16vw;
-    -webkit-filter: drop-shadow(0 0 5px #f53801);
-    cursor: pointer;
-    transition: ease .3s;
-}
-.automation-tech .java:hover{
-    width: 7vw;
-    -webkit-filter: drop-shadow(0 10px 10px #ffffff);
-}
-.java-box {
-    position: absolute;
-    width: 90vw;
-    height: 75vh;
-    left: 5vw;
-    top: 120vh;
-    color: white;
-    justify-content: center;
-    text-align: center;
-    border-radius: 5vh;
-    box-shadow: 0 0 30px rgba(0,0,1, .5);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    overflow-y: scroll;
-    z-index: 21;
-    transition: transform .5s ease, height .2s ease;
-    transform: scale(0);
-}
-.active-java-box{
-    transform: scale(1);
-}
 
 .automation-tech .jdbc{
     top: -12vh;
@@ -454,9 +421,9 @@
         border: white;
         width: 90vw;
         left: 4vw;
-        height: 40vh;
+        height: 30vh;
         text-align: left;
-        top: 50vh;
+        top: 45vh;
         transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
         overflow: scroll;
     }
