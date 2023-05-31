@@ -455,6 +455,7 @@
         text-align: left;
         top: 50vh;
         transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
+        overflow: scroll;
     }
 
     .automation-tech .icon {
