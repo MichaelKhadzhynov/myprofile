@@ -416,21 +416,25 @@
 }
 
 @media(max-width: 725px) {
+    .automation-tech h2{
+        position: relative;
+        top: -2vh;
+    }
     .automation-tech {
         position: relative;
         border: white;
         width: 90vw;
-        left: 4vw;
-        height: 30vh;
+        left: 5vw;
+        height: 25vh;
         text-align: left;
-        top: 45vh;
+        top: 47vh;
         transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
-        overflow: scroll;
+        overflow: hidden;
     }
 
     .automation-tech .icon {
         width: 10vw;
-        top: 1vh;
+        top: -3vh;
         left: 0vh;
         margin-left: 3vw;
         margin-top: 3vh;

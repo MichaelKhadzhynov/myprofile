@@ -149,21 +149,25 @@
 }
 
 @media(max-width: 725px) {
+    .programming-tech h2{
+        position: relative;
+        top: -2vh;
+    }
     .programming-tech {
         position: relative;
         border: white;
         width: 90vw;
-        left: 4vw;
-        height: 20vh;
+        left: 5vw;
+        height: 15vh;
         text-align: left;
-        top: 45vh;
+        top: 46vh;
         transform: translate3d(0, calc(var(--scrollTop) / -3), 0);
-        overflow: scroll;
+        overflow: hidden;
     }
 
     .programming-tech .icon {
         width: 10vw;
-        top: 1vh;
+        top: -3vh;
         left: 0vh;
         margin-left: 3vw;
         margin-top: 3vh;
