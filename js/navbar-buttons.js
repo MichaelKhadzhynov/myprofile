@@ -20,3 +20,13 @@ const skills = document.querySelector(".skills-btn");
 skills.addEventListener("click", ()=>{
     document.querySelector(".automation-tech").scrollIntoView({behavior: "smooth"})
 })
+
+// Contacts
+const contactbtn =  document.querySelector(".contact-btn");
+contactbtn.addEventListener("click", ()=>{
+    document.querySelector(".contacts").classList.add("contacts-active");
+})
+
+document.querySelector(".contacts-close").addEventListener("click", ()=>{
+    document.querySelector(".contacts").classList.remove("contacts-active");
+})
