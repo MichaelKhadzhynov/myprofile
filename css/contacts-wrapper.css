@@ -39,3 +39,14 @@
     cursor: pointer;
     z-index: 1;
 }
+
+@media(max-width: 725px){
+
+    .contacts{
+        position: center;
+        width: 90vw;
+        height: 60vh;
+        left: 3vw;
+        top: 20vh;
+    }
+}

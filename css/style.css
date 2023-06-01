@@ -16,6 +16,7 @@ h1{
     top: 2.5vh;
     font-family: var(--font);
     font-weight: 400;
+
 }
 
 .header{
@@ -200,7 +201,8 @@ h1{
     .text-logo{
         position: relative;
         height: 20vh;
-        left: -16vw;
+        left: -17vw;
+        top: 4vh;
     }
     .navbar a,
     .navbar button {
@@ -210,11 +212,29 @@ h1{
         width: 19vw;
         margin-top: 2vw;
         left: 19vw;
-        top: -3vh;
+        top: 3vh;
     }
     .navbar .btnLogin-popup{
         left: -20vw;
-        top: -13vh;
+        top: -10vh;
+    }
+
+    .header{
+        height: 15vh;
+    }
+
+    .about-me .my-avatar{
+        position: absolute;
+        width: 50vw;
+        left: 18vw;
+
+    }
+
+    .about-me p{
+        position: relative;
+        width: 80vw;
+        top:30vh;
+
     }
 }
 

@@ -267,4 +267,5 @@ main{
     .welcome-btn:hover + .welcome-icon{
         width: 55vw;
     }
+
 }
