@@ -58,39 +58,6 @@
     width: 6vw;
 }
 
-
-.automation-tech .jdbc{
-    top: -12vh;
-    -webkit-filter: drop-shadow(0 0 20px #00e1ff);
-    cursor: pointer;
-    transition: ease .3s;
-}
-.automation-tech .jdbc:hover {
-    width: 5vw;
-    -webkit-filter: drop-shadow(0 10px 10px #00e1ff);
-}
-.jdbc-box {
-    position: absolute;
-    width: 90vw;
-    height: 75vh;
-    left: 5vw;
-    top: 120vh;
-    color: white;
-    justify-content: center;
-    text-align: center;
-    border-radius: 5vh;
-    box-shadow: 0 0 30px rgba(0,0,1, .5);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    overflow-y: scroll;
-    z-index: 21;
-    transition: transform .5s ease, height .2s ease;
-    transform: scale(0);
-}
-.active-jdbc-box {
-    transform: scale(1);
-}
-
 .automation-tech .selenium{
     top: -12vh;
     -webkit-filter: drop-shadow(0 0 20px #00ffb0);

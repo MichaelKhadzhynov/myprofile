@@ -41,24 +41,32 @@
     width: 5vw;
 }
 
-
-.testing-tools .sql:hover{
-    width: 4vw;
-    -webkit-filter: drop-shadow(0 10px 5px #346EECFF);
-}
-
-.testing-tools .dbeaver{
-    -webkit-filter: drop-shadow(0 0 15px #ab9857);
-}
-.testing-tools .dbeaver:hover{
-    -webkit-filter: drop-shadow(0 10px 5px #ab9857);
-}
-
 .testing-tools .postman{
     -webkit-filter: drop-shadow(0 0 15px #ff471a);
 }
 .testing-tools .postman:hover{
     -webkit-filter: drop-shadow(0 10px 5px #ff471a);
+}
+.postman-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-postman-box {
+    transform: scale(1);
 }
 
 .testing-tools .scrum{
@@ -67,12 +75,54 @@
 .testing-tools .scrum:hover{
     -webkit-filter: drop-shadow(0 10px 5px #beffed);
 }
+.scrum-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-scrum-box {
+    transform: scale(1);
+}
 
 .testing-tools .jira{
     -webkit-filter: drop-shadow(0 0 15px #16d4ff);
 }
 .testing-tools .jira:hover{
     -webkit-filter: drop-shadow(0 10px 5px #16d4ff);
+}
+.jira-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-jira-box {
+    transform: scale(1);
 }
 
 .testing-tools .github{
@@ -81,12 +131,54 @@
 .testing-tools .github:hover{
     -webkit-filter: drop-shadow(0 10px 5px #5816ff);
 }
+.git-hub-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-git-hub-box {
+    transform: scale(1);
+}
 
 .testing-tools .git{
     -webkit-filter: drop-shadow(0 0 15px #ff1639);
 }
 .testing-tools .git:hover{
     -webkit-filter: drop-shadow(0 10px 5px #ff1639);
+}
+.git-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-git-box {
+    transform: scale(1);
 }
 
 

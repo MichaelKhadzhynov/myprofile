@@ -34,6 +34,7 @@
     top: -12vh;
     margin-left: 1.9%;
     transition: .3s;
+    cursor: pointer;
 }
 
 .programming-tech .icon:hover{
@@ -118,35 +119,117 @@
     width: 4vw;
     -webkit-filter: drop-shadow(0 10px 5px #346EECFF);
 }
+.sql-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-sql-box {
+    transform: scale(1);
+}
 
-.programming-tech .web-js{
+.programming-tech .web{
     top: -11vh;
     width: 5.6vw;
-    -webkit-filter: drop-shadow(0 0 20px #e3d812);
+    -webkit-filter: drop-shadow(0 0 15px #01f522);
 }
-.programming-tech .web-js:hover{
+.programming-tech .web:hover{
     width: 7vw;
-    -webkit-filter: drop-shadow(0 10px 5px #e3d812);
+    -webkit-filter: drop-shadow(0 10px 5px #01f522);
+}
+.web-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-web-box {
+    transform: scale(1);
 }
 
-.programming-tech .web-css{
-    top: -11vh;
-    -webkit-filter: drop-shadow(0 0 20px #0123d0);
+.programming-tech.dbeaver{
+    -webkit-filter: drop-shadow(0 0 10px #ab9857);
 }
-.programming-tech .web-css:hover{
-    width: 5vw;
-    -webkit-filter: drop-shadow(0 10px 5px #0123d0);
+.programming-tech .dbeaver:hover{
+    width: 4.5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #ab9857);
+}
+.dbeaver-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-dbeaver-box {
+    transform: scale(1);
 }
 
-.programming-tech .web-html{
-    top: -11vh;
-    -webkit-filter: drop-shadow(0 0 20px #d00101)
+.programming-tech.intellij-idea{
+    -webkit-filter: drop-shadow(0 0 35px #4940cb);
 }
-.programming-tech .web-html:hover{
-    width: 5vw;
-    -webkit-filter: drop-shadow(0 10px 5px #d00101);
+.programming-tech .intellij-idea:hover{
+    width: 4.5vw;
+    -webkit-filter: drop-shadow(0 10px 5px #4940cb);
+}
+.intellij-idea-box {
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 120vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 30px rgba(0,0,1, .5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow-y: scroll;
+    z-index: 21;
+    transition: transform .5s ease, height .2s ease;
+    transform: scale(0);
+}
+.active-intellij-idea-box {
+    transform: scale(1);
+}
 
-}
 
 @media(max-width: 725px) {
     .programming-tech h2{
