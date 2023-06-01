@@ -43,10 +43,25 @@ main{
     0% {
         transform: translateY(0);
     }
-    25%{
-        transform: translateY(0);;
+    15%{
+        transform: translateY(-4vh);;
     }
-    50% {
+    20% {
+        transform: translateY(-1vh);
+    }
+    25%{
+        transform: translateY(-3vh);
+    }
+    30%{
+        transform: translateY(0vh);
+    }
+    35%{
+        transform: translateY(-2vh);
+    }
+    40%{
+        transform: translateY(0);
+    }
+    65%{
         transform: translateY(-3vh);
     }
     100% {
@@ -54,6 +69,22 @@ main{
     }
 
 }
+
+/*@keyframes jump {*/
+/*    0% {*/
+/*        transform: translateY(0);*/
+/*    }*/
+/*    25%{*/
+/*        transform: translateY(0);;*/
+/*    }*/
+/*    50% {*/
+/*        transform: translateY(-3vh);*/
+/*    }*/
+/*    100% {*/
+/*        transform: translateY(0);*/
+/*    }*/
+
+/*}*/
 
 
 

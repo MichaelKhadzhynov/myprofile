@@ -180,17 +180,18 @@ h1{
     width: 50vw;
     top: 7vh;
     margin: 2vw;
+    left: 3vw;
     font-size: 2.9vh;
 }
 .about-me-active{
     transform: scale(1);
 }
 
-.about-me .my-photo{
+.about-me .my-avatar{
     position: absolute;
-    width: 25vw;
-    top: -2vh;
-    left: 59vw;
+    width: 35vw;
+    top: 10vh;
+    left: 53vw;
 }
 
 
