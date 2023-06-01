@@ -13,3 +13,14 @@ document.querySelector(".about-me-close-btn").addEventListener("click", ()=>{
     document.querySelector(".welcome-icon").classList.remove("welcome-icon-stop");
     document.querySelector(".about-me").classList.remove("about-me-active");
 });
+
+function stopAnimation(){
+  document.querySelector(".welcome-icon").classList.add("welcome-icon-stop")
+}
+let time;
+function stopAnimationAfter(time){
+    setTimeout(stopAnimation, time)
+}
+stopAnimationAfter(20000)
+
+

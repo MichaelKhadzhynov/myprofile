@@ -30,6 +30,7 @@ main{
     -webkit-filter: drop-shadow(0 0px 10px #ffffff);
     z-index: 7;
     animation: jump 5s  infinite;
+    animation-delay: 2.5s;
     cursor: pointer;
     pointer-events: none;
     transition: .2s;
