@@ -32,7 +32,7 @@
     position: relative;
     width: 4vw;
     left: 18vw;
-    top: -8vh;
+    top: -6vh;
     margin-left: 2.1%;
     transition: .3s;
 }
@@ -43,6 +43,8 @@
 
 .testing-tools .postman{
     -webkit-filter: drop-shadow(0 0 15px #ff471a);
+    cursor: pointer;
+
 }
 .testing-tools .postman:hover{
     -webkit-filter: drop-shadow(0 10px 5px #ff471a);
@@ -71,6 +73,7 @@
 
 .testing-tools .scrum{
     -webkit-filter: drop-shadow(0 0 15px #beffed);
+    cursor: pointer;
 }
 .testing-tools .scrum:hover{
     -webkit-filter: drop-shadow(0 10px 5px #beffed);
@@ -99,6 +102,7 @@
 
 .testing-tools .jira{
     -webkit-filter: drop-shadow(0 0 15px #16d4ff);
+    cursor: pointer;
 }
 .testing-tools .jira:hover{
     -webkit-filter: drop-shadow(0 10px 5px #16d4ff);
@@ -125,8 +129,9 @@
     transform: scale(1);
 }
 
-.testing-tools .github{
+.testing-tools .git-hub {
     -webkit-filter: drop-shadow(0 0 15px #5816ff);
+    cursor: pointer;
 }
 .testing-tools .github:hover{
     -webkit-filter: drop-shadow(0 10px 5px #5816ff);
@@ -153,8 +158,9 @@
     transform: scale(1);
 }
 
-.testing-tools .git{
+.testing-tools .git {
     -webkit-filter: drop-shadow(0 0 15px #ff1639);
+    cursor: pointer;
 }
 .testing-tools .git:hover{
     -webkit-filter: drop-shadow(0 10px 5px #ff1639);

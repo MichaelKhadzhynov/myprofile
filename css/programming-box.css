@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     left: 1vw;
-    top: 115vh;
+    top: 118vh;
     box-shadow: 0 0 30px rgba(0,0,0, .5);
     border-radius: 20px;
     backdrop-filter: blur(4px);
@@ -31,10 +31,9 @@
     position: relative;
     width: 4vw;
     left: 16vw;
-    top: -12vh;
+    top: -11vh;
     margin-left: 1.9%;
     transition: .3s;
-    cursor: pointer;
 }
 
 .programming-tech .icon:hover{
@@ -46,15 +45,14 @@
 }
 
 .programming-tech .java{
-    width: 6vw;
-    top: -10vh;
+    width: 5vw;
     left: 17vw;
     -webkit-filter: drop-shadow(0 0 5px #f53801);
     cursor: pointer;
     transition: ease .3s;
 }
 .programming-tech .java:hover{
-    width: 7vw;
+    width: 6vw;
     -webkit-filter: drop-shadow(0 10px 10px #ffffff);
 }
 .java-box {
@@ -80,7 +78,6 @@
 }
 
 .programming-tech .jdbc{
-    /*top: -11vh;*/
     -webkit-filter: drop-shadow(0 0 20px #00e1ff);
     cursor: pointer;
     transition: ease .3s;
@@ -114,6 +111,7 @@
 .programming-tech .sql{
     width: 3vw;
     -webkit-filter: drop-shadow(0 0 10px #346eec);
+    cursor: pointer;
 }
 .programming-tech .sql:hover{
     width: 4vw;
@@ -142,9 +140,10 @@
 }
 
 .programming-tech .web{
-    top: -11vh;
+    top: -10vh;
     width: 5.6vw;
     -webkit-filter: drop-shadow(0 0 15px #01f522);
+    cursor: pointer;
 }
 .programming-tech .web:hover{
     width: 7vw;
@@ -172,8 +171,9 @@
     transform: scale(1);
 }
 
-.programming-tech.dbeaver{
+.programming-tech .dbeaver{
     -webkit-filter: drop-shadow(0 0 10px #ab9857);
+    cursor: pointer;
 }
 .programming-tech .dbeaver:hover{
     width: 4.5vw;
@@ -201,8 +201,9 @@
     transform: scale(1);
 }
 
-.programming-tech.intellij-idea{
+.programming-tech .intellij-idea{
     -webkit-filter: drop-shadow(0 0 35px #4940cb);
+    cursor: pointer;
 }
 .programming-tech .intellij-idea:hover{
     width: 4.5vw;
