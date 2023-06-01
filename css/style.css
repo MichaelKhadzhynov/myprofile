@@ -11,6 +11,12 @@
 
 }
 
+h1{
+    position: relative;
+    top: 2.5vh;
+    font-family: var(--font);
+    font-weight: 400;
+}
 
 .header{
     position: fixed;
@@ -152,23 +158,39 @@
 .about-me {
     position: absolute;
     width: 90vw;
-    height: 60vh;
+    height: 80vh;
     left: 5vw;
-    top: 20vh;
+    top: 15vh;
     color: white;
     justify-content: center;
     text-align: center;
     border-radius: 5vh;
     box-shadow: 0 0 30px rgba(0,0,1, .5);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     overflow-y: scroll;
     z-index: 24;
     transition: transform .5s ease, height .2s ease;
     transform: scale(0);
 }
+
+.about-me p{
+    position: relative;
+    text-align: left;
+    width: 50vw;
+    top: 7vh;
+    margin: 2vw;
+    font-size: 2.9vh;
+}
 .about-me-active{
     transform: scale(1);
+}
+
+.about-me .my-photo{
+    position: absolute;
+    width: 25vw;
+    top: -2vh;
+    left: 59vw;
 }
 
 

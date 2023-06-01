@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     left: 1vw;
-    top: 70vw;
+    top: 119vh;
     box-shadow: 0 0 30px rgba(0,0,0, .5);
     border-radius: 20px;
     backdrop-filter: blur(4px);
@@ -263,7 +263,7 @@
     width: 5vw;
     -webkit-filter: drop-shadow(0 10px 5px #00be68);
 }
-.restassured-box {
+.rest-assured-box {
     position:absolute;
     width: 90vw;
     height: 75vh;

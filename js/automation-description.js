@@ -34,10 +34,10 @@ document.querySelector(".gatling-close-box").addEventListener("click", ()=>{
 })
 
 document.querySelector(".restassured").addEventListener("click", ()=>{
-    document.querySelector(".restassured-box").classList.add("active-restassured-box");
+    document.querySelector(".rest-assured-box").classList.add("active-restassured-box");
 })
 document.querySelector(".restassured-close-box").addEventListener("click", ()=>{
-    document.querySelector(".restassured-box").classList.remove("active-restassured-box");
+    document.querySelector(".rest-assured-box").classList.remove("active-restassured-box");
 })
 
 document.querySelector(".mybatis").addEventListener("click", ()=>{
