@@ -56,9 +56,6 @@ main{
     30%{
         transform: translateY(0vh);
     }
-    35%{
-        transform: translateY(-2vh);
-    }
     40%{
         transform: translateY(0);
     }
